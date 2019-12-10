@@ -1,0 +1,68 @@
+<header class="header img-fluid d-sm-block">
+    <div class="background-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 justify-content-center align-self-center text-white my-5">
+                        <h2 class="mb-3">La Empresa</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate error, consectetur ducimus autem corporis doloribus non quod possimus voluptatibus inventore maxime commodi voluptatum excepturi optio obcaecati dolor repudiandae eos?</p> <br>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea inventore, est sequi voluptates ratione dignissimos expedita a amet eaque eligendi illo totam voluptatum id obcaecati quam maxime dolor corporis eveniet?
+                        </p><br>
+                </div>
+            </div>        
+        </div>
+    </div>
+</header>
+
+<div class="jumbotron">
+  <div class="container mb-4">
+    <h3 class="mb-4 ml-3">Perfiles</h3>
+    <hr>
+      <div class="row">
+        <div class="col-md-12" >
+          <ul class="list-group" *ngFor='let item of equipo'>
+            <li class="list-group-item p-3 m-2" id="lista">
+              <div class="d-flex">
+                <img src="{{item.foto}}" class="m-3">
+                <div class="p-3 text-justify">
+                  <p>Nombre: {{item.nombre}}</p>
+                  <p>Especiaidad: {{item.especialidad}}</p>
+                  <p>Puesto: {{item.descripcion}}</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="jumbotron text-light" id="jumbo">
+  <div class="container">
+      <br>
+      <div class="container">
+        <div class="row p-4">
+          <div class="text-justify">
+            <h3 class="mb-5 ml-1">Algunos Servicios</h3>
+            <hr>
+            <h4>Sencillo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non blanditiis aperiam saepe voluptates exercitationem, eaque dolorem quibusdam ipsum accusamus obcaecati eligendi quisquam dolores at quaerat neque aliquam maiores nulla modi!</p>
+            <h4>Intuitivo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in possimus pariatur laudantium expedita soluta quas velit id atque! Fugiat optio non eum, possimus officiis minima? Incidunt ullam iure saepe.</p>
+            <h4>Seguro</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, possimus provident dolor blanditiis cumque alias ad debitis aut facilis nam modi earum deleniti ut sint iusto enim laudantium delectus.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="text-center mb-5">
+              <img id="imagen" src="../../assets/Sin título.jpg"></div>
+          </div>
+      </div>      
+  </div>
+</div>
+
+
+
+    
+ 

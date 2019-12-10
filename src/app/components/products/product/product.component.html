@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="card-body">
+        <form #productForm="ngForm" (ngSubmit)="onSubmit(productForm)">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName4">Nombre de producto</label>
+                    <input type="text" id="inputEmail4" placeholder="Ingrese nombre" name="name" #name="ngModel" [(ngModel)]="productService.name" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputCategory">Categoria</label>
+                    <select id="inputCategory" class="form-control" placeholder="Ingrese categoria.." name="category" #category="ngModel" [(ngModel)]="productService.category">
+                        <option selected>-- Elegir --</option>
+                        <option>Telefonia celular</option>
+                        <option>Tecnologia</option>
+                        <option>Laptops</option>
+                        <option>PC escritorio</option>
+                        <option>Electrodomestico</option>
+                        <option>Repuesto</option>
+                        <option>Otros</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-9">
+                    <label for="inputDescription">Descripcion</label>
+                    <input type="text" placeholder="Ingrese descripcion..." name="location" #location="ngModel" [(ngModel)]="productService.location" class="form-control" id="inputDescription">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputPrice">Precio</label>
+                    <input type="text" id="inputPrice" placeholder="Ingrese precio..." name="price" #price="ngModel" [(ngModel)]="productService.price" class="form-control">
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <button class="btn btn-info mr-2" type="submit">
+                <fa-icon class="mr-1" [icon]="agregar"></fa-icon>Alta</button>
+                <button class="btn btn-secondary" type="reset" (click)="resetForm(productForm)">
+                <fa-icon class="mr-1" [icon]="limpiar"></fa-icon>Limpiar</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="d-flex" id="wrapper">
+  <div class="bg-dark" id="sidebar-wrapper">
+    <div class="sidebar-heading"><img src="../../assets/logo.jpg" alt="" width="auto" height="115em"></div>
+    <div class="list-group list-group-flush">
+      <a href="#" class="list-group-item list-group-item-action bg-dark text-light" routerLink="/inicio">Inicio</a>
+      <a href="#" class="list-group-item list-group-item-action bg-dark text-light" routerLink="/nosotros">Nosotros</a>
+      <a href="#" class="list-group-item list-group-item-action bg-dark text-light" routerLink="/administrar">Servicio</a>
+      <a href="#" class="list-group-item list-group-item-action bg-dark text-light" routerLink="/contacto">Contacto</a>
+    </div>
+  </div>
+  <div id="page-content-wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+      <div class="container">
+        <button class="btn py-0 px-1" id="menu-toggle" style="background-color: white;"><span class="navbar-toggler-icon"></span></button>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+              <fa-icon [icon]="avatar" style="font-size: 1em; color: green;"></fa-icon>
+              <a class="btn btn-default mb-1">Usuario Activo</a>
+              <button class="btn dropdown-toggle py-0 px-1" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white;"></button>
+              <div class="dropdown-menu pull-left" role="menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.google.com/">Cerrar Sesion</a>
+              </div>
+          </li>
+        </ul>  
+      </div>
+    </nav>
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.container{
+    height: 100%;
+}
+
+.body{
+    background: url(https://www.larutadelsorigens.cat/wallpic/full/97-975444_desktop-escritorio-de-oficina-hd.jpg);
+    background-size: cover;
+}
+
+.background-overlay{
+    
+    background: rgba(53, 54, 56, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
