@@ -34,8 +34,4 @@ export class EquipoService {
    obtenerEquipo(){
     return this.equipo;
    }
-
-   obtenerUno(i){
-     return this.equipo[i];
-   }
 }
