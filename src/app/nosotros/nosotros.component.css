@@ -5,8 +5,9 @@
 }
 
 img {
+
+    max-width: 80%;
     height: auto;
-    max-width: 20%;
 }
 
 .header{
@@ -35,6 +36,18 @@ img {
 }
 
 #lista:hover {
-    bottom: 0.5em;
-    left: 0.5em;
+    bottom: 1.5em;
+    left: 0.8em;
+}
+
+@media screen and (max-width: 700px){
+    p{
+    font-size:12px;
+    }
+}
+    
+@media screen and (max-width: 400px){
+    p{
+    font-size:10px;
+    }
 }

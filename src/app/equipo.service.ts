@@ -9,13 +9,13 @@ export class EquipoService {
   equipo:any[] = [
 
     {
-      nombre:'Ignacio Perez Gil',
+      nombre:'Leonel Messi',
       especialidad:'HTML CSS ',
       descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       foto:"assets/messi.jpg"
     },
     {
-      nombre:'Maria Angelica Lorenz',
+      nombre:'Angelica Lorenz',
       especialidad:'JQUERY CSS JAVASCRIPT ',
       descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       foto:"assets/bombon.jpg"
