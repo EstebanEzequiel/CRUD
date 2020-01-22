@@ -10,19 +10,19 @@ export class EquipoService {
 
     {
       nombre:'Leonel Messi',
-      especialidad:'HTML CSS ',
+      especialidad:'Front End',
       descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       foto:"assets/messi.jpg"
     },
     {
       nombre:'Angelica Lorenz',
-      especialidad:'JQUERY CSS JAVASCRIPT ',
+      especialidad:'Back End',
       descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       foto:"assets/bombon.jpg"
     },
     {
       nombre:'Alberto Fernandez',
-      especialidad:'JQUERY CSS JAVASCRIPT ANGULAR NODE FIREBASE',
+      especialidad:'Full Stack',
       descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!',
       foto:"assets/viejo-meme.jpg"
     }

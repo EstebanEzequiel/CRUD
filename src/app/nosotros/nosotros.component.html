@@ -15,50 +15,51 @@
   </div>
 </header>
 
-<div class="jumbotron">
-<div class="container mb-4">
-  <h3 class="mb-4 ml-3">Miembros Fundadores</h3>
-  <ul class="list-group" *ngFor='let item of equipo'>
-    <li class="list-group-item" id="lista">
-      <div class="row row-cols-2">
-        <div class="col-3">
-          <img src="{{item.foto}}" class="img-fluid m-3">
+<div class="jumbotron bg-dark">
+  <div class="container mb-4">
+    <h3 class="mb-4 ml-1 text-danger">Miembros Fundadores</h3>
+    <ul class="list-group m-3" *ngFor='let item of equipo'>
+      <li class="list-group-item bg-warning text-white" id="lista">
+        <div class="row row-cols-2">
+          <div class="col-3">
+            <img src="{{item.foto}}" class="img-fluid m-3">
+          </div>
+          <div class="col-9 font-weight-light">
+            <h3 class="mt-3 mb-3">{{item.nombre}}</h3>
+            <small>{{item.especialidad}}</small>
+            <p class="mt-3">{{item.descripcion}}</p>
+          </div>
         </div>
-        <div class="col-9 font-weight-light">
-          <p class="mt-3">Nombre: {{item.nombre}}</p>
-          <p>Especiaidad: {{item.especialidad}}</p>
-          <p>Puesto: {{item.descripcion}}</p>
+      </li>
+    </ul>
+  </div>
+  </div>
+  
+  <div class="jumbotron text-light" id="jumbo">
+  <div class="container">
+      <br>
+      <div class="container">
+        <div class="row p-4">
+          <div class="text-justify">
+            <h3 class="mb-5 ml-1">Servicios</h3>
+            <hr>
+            <h4>Altas</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non blanditiis aperiam saepe voluptates exercitationem, eaque dolorem quibusdam ipsum accusamus obcaecati eligendi quisquam dolores at quaerat neque aliquam maiores nulla modi!</p>
+            <h4>Bajas</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in possimus pariatur laudantium expedita soluta quas velit id atque! Fugiat optio non eum, possimus officiis minima? Incidunt ullam iure saepe.</p>
+            <h4>Modificaciones</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, possimus provident dolor blanditiis cumque alias ad debitis aut facilis nam modi earum deleniti ut sint iusto enim laudantium delectus...</p>
+            <h4>Seguro, Intuitivo, Moderno</h4>
+          </div>
         </div>
-      </div>
-    </li>
-  </ul>
-</div>
-</div>
-
-<div class="jumbotron text-light" id="jumbo">
-<div class="container">
-    <br>
-    <div class="container">
-      <div class="row p-4">
-        <div class="text-justify">
-          <h3 class="mb-5 ml-1">Algunos Servicios</h3>
-          <hr>
-          <h4>Sencillo</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non blanditiis aperiam saepe voluptates exercitationem, eaque dolorem quibusdam ipsum accusamus obcaecati eligendi quisquam dolores at quaerat neque aliquam maiores nulla modi!</p>
-          <h4>Intuitivo</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in possimus pariatur laudantium expedita soluta quas velit id atque! Fugiat optio non eum, possimus officiis minima? Incidunt ullam iure saepe.</p>
-          <h4>Seguro</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, possimus provident dolor blanditiis cumque alias ad debitis aut facilis nam modi earum deleniti ut sint iusto enim laudantium delectus.</p>
+        <div class="row">
+          <div class="text-center mb-5">
+              <img id="imagen" src="../../assets/Sin título.jpg">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="text-center mb-5">
-            <img id="imagen" src="../../assets/Sin título.jpg">
-        </div>
-      </div>
-    </div>      
-</div>
-</div>
+      </div>      
+  </div>
+  </div>
 
 
 
