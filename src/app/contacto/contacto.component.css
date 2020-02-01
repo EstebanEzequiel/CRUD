@@ -3,8 +3,10 @@
 }
 
 .body{
-    background: url(https://www.larutadelsorigens.cat/wallpic/full/97-975444_desktop-escritorio-de-oficina-hd.jpg);
+    background: url(../../assets/fondo2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 .background-overlay{

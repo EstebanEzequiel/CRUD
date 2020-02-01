@@ -13,6 +13,8 @@ img {
 .header{
     background: url(https://cdn.ticbeat.com/src/uploads/2016/09/recortar-gastos-empresa-810x454.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 .background-overlay{
