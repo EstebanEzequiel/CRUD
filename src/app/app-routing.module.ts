@@ -14,7 +14,7 @@ const routes: Routes =
 [
   {  path:'inicio', component: InicioComponent  },
   {  path:'', component: InicioComponent  },
-  {  path:'nosotros', component: NosotrosComponent  },
+  {  path:'presentacion', component: NosotrosComponent  },
   {  path:'contacto', component: ContactoComponent  },
   {  path:'administrar', component: ProductsComponent  },
   {  path:'historia', component: HistoriaComponent  },

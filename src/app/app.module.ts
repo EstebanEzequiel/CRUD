@@ -29,7 +29,7 @@ import { HistoriaComponent } from './historia/historia.component';
 import { ObjetivosComponent } from './objetivos/objetivos.component';
 import { ConozcaMasComponent } from './conozca-mas/conozca-mas.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
-import {NgxPaginationModule} from 'ngx-pagination';
+import { NgxPaginationModule } from 'ngx-pagination';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -65,3 +65,5 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

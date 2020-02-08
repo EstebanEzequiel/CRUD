@@ -1,12 +1,11 @@
-.header{
+.fondo{
     background: url(../../assets/1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed
 }
 
-.background-overlay{
-    
+.filtro{    
     background: rgba(66, 67, 87, 0.7);
     top: 0;
     left: 0;
@@ -14,7 +13,6 @@
     height: 100%;
 }
 
-.header h1{
+.fondo h1{
     text-transform:uppercase;
 }
-
