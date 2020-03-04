@@ -20,8 +20,5 @@ export class NavegacionComponent implements OnInit{
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
     });
-  }
-
-  
-
+  }  
 }
