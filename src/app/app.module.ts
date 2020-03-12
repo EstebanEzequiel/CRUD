@@ -32,6 +32,11 @@ import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+//material
+import {  MatFormFieldModule  } from '@angular/material/form-field';
+import {  MatInputModule  } from '@angular/material/input';
+import { SearchComponent } from './components/search/search.component';
+
 
 @NgModule({
   declarations: [
@@ -48,7 +53,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HistoriaComponent,
     ObjetivosComponent,
     ConozcaMasComponent,
-    EncabezadoComponent
+    EncabezadoComponent,
+    SearchComponent
   ],
   imports: 
   [
@@ -59,7 +65,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AngularFireDatabaseModule,
     FormsModule,
     BrowserAnimationsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [ ProductService ],
   bootstrap: [AppComponent]
