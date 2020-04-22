@@ -1,1 +1,1 @@
-El proyecto es una Single Page Application en Angular 8, manipulando datos contra la base de datos de Firebase, se utilizo Bootstrap, Font-Awesome y otros para el diseño de interfaz grafica. Cumple ademas con las funciones basicas de un CRUD.  
+El proyecto es una Single Page Application en Angular 8, manipulando datos contra la base de datos de Firebase, es decir que sus funciones basicas  son las de un CRUD.
