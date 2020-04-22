@@ -35,8 +35,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //material
 import {  MatFormFieldModule  } from '@angular/material/form-field';
 import {  MatInputModule  } from '@angular/material/input';
-import { SearchComponent } from './components/search/search.component';
-
 
 @NgModule({
   declarations: [
@@ -54,7 +52,7 @@ import { SearchComponent } from './components/search/search.component';
     ObjetivosComponent,
     ConozcaMasComponent,
     EncabezadoComponent,
-    SearchComponent
+    
   ],
   imports: 
   [
