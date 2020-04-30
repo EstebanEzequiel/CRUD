@@ -6,9 +6,8 @@ import { FormsModule} from '@angular/forms'
 import { AppComponent } from './app.component';
 
 //firebase
-import { AngularFireDatabaseModule} from 'angularfire2/database';
-import { AngularFireModule } from 'angularfire2'
-import { environment} from '../environments/environment';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
 
 import { NavegacionComponent } from './navegacion/navegacion.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -31,10 +30,6 @@ import { ConozcaMasComponent } from './conozca-mas/conozca-mas.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-//material
-import {  MatFormFieldModule  } from '@angular/material/form-field';
-import {  MatInputModule  } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -60,12 +55,9 @@ import {  MatInputModule  } from '@angular/material/input';
     AppRoutingModule,
     FontAwesomeModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule,
     FormsModule,
     BrowserAnimationsModule,
     NgxPaginationModule,
-    MatFormFieldModule,
-    MatInputModule
   ],
   providers: [ ProductService ],
   bootstrap: [AppComponent]

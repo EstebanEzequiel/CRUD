@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "presentacion",
+      "public": "dist/presentacion",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
