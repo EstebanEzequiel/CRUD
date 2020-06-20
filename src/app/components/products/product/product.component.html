@@ -30,8 +30,9 @@
                     <input type="text" id="inputPrice" placeholder="Ingrese precio..." name="price" #price="ngModel" [(ngModel)]="productService.price" class="form-control">
                 </div>
             </div>
-            <div class="d-flex justify-content-end">
-                <button class="btn btn-info mr-2" type="submit">
+            <br>
+            <div class="d-flex justify-content-between">
+                <button class="btn btn-info" type="submit">
                 <fa-icon class="mr-1" [icon]="agregar"></fa-icon>Alta</button>
                 <button class="btn btn-secondary" type="reset" (click)="resetForm(productForm)">
                 <fa-icon class="mr-1" [icon]="limpiar"></fa-icon>Limpiar</button>

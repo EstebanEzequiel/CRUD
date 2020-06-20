@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-encabezado',
+  selector: 'encabezado',
   templateUrl: './encabezado.component.html',
   styleUrls: ['./encabezado.component.css']
 })

@@ -3,7 +3,7 @@ import * as jQuery from 'jquery';
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-navegacion',
+  selector: 'navegacion',
   templateUrl: './navegacion.component.html',
   styleUrls: ['./navegacion.component.css']
 })
