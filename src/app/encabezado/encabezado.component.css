@@ -1,18 +1,30 @@
-.fondo{
-    background: url(../../assets/1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed
-}
-
-.filtro{    
-    background: rgba(66, 67, 87, 0.7);
-    top: 0;
-    left: 0;
+.img-fondo{
+    height: 90vh;
     width: 100%;
-    height: 100%;
+    background: url(../../assets/1.png);
+    background-color: rgba(66, 67, 87, 0.95);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.fondo h1{
-    text-transform:uppercase;
+h1{
+    font-size: 15vw;
+    max-width: 80%;
+    color: white;
+    opacity: 0.55;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    padding: 32px;
+    opacity: 0.95;
+    color: white;    
+    text-align: justify;
 }

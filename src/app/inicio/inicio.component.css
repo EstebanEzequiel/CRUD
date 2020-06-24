@@ -1,5 +1,15 @@
 .jumbotron{
     border-radius: 0%;
-    padding: 3em;
-    margin-bottom: 0%;
+    padding-top: 1em;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: transparent !important;
+    margin: 0;
+    color: white;
+}
+
+.col-md-4{
+    padding-left: 7.5px;
+    padding-right: 7.5px;
 }

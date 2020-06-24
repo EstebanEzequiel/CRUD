@@ -1,5 +1,11 @@
 .jumbotron{
     border-radius: 0%;
-    padding: 3em;
+    /* padding: 3em; */
+    background-color: transparent !important;
     margin-bottom: 0%;
+    color: white;
+}
+
+.row{
+    display: block;
 }
