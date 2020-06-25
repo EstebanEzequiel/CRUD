@@ -1,6 +1,8 @@
 <header class="img-fondo">
   <h4>La Empresa</h4>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!. 
+  <i>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!. 
+  </i>
   </header>
   
 <div class="jumbotron">
@@ -9,10 +11,10 @@
     <br>
     <div class="card-deck" *ngFor='let item of equipo'>
       <div class="card">
-        <img src="{{item.foto}}" class="card-img-top" alt="...">
+        <img src="{{item.foto}}" class="img-fluid">
         <div class="card-body">
           <h5 class="card-title">{{item.nombre}}</h5>
-          <p class="card-text">{{item.especialidad}}</p>
+          <h6 class="text-dark">{{item.especialidad}}</h6>
           <p class="text-dark">{{item.descripcion}}</p>
         </div>
       </div>
