@@ -1,7 +1,5 @@
-.menu {
-    float:left;
-    width:20%;
-    text-align:center;
+body{
+    align-items:stretch;
 }
 
 .main{

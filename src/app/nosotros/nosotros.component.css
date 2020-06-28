@@ -12,11 +12,15 @@
     justify-content: center;
 }
 
-.card-deck .card{
-    max-width: 20rem;
+/* .card{
+    margin: 0 !important;
+    max-width: 320px;
+} */
+
+/* .card-deck .card{
     margin-bottom: 1em;
-    /* float: left; */
-}
+    float: left; 
+} */
 
 .text-dark{
 
@@ -46,16 +50,16 @@ h3{
     padding: 0;
 }
 
-.jumbotron{
+.miembros{
     background-color: transparent;
     margin: 0;
     padding: 0;
 }
 
-#jumbo{
-
-    padding: 0em;
+.jumbotron{
+    margin: 0;
     background-color:cadetblue;
+    border-radius: 0;
 }
 
 #imagen{

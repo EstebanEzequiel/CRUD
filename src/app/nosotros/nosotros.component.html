@@ -3,47 +3,38 @@
   <i>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque enim veritatis excepturi impedit facere eius a, quos, omnis itaque aliquam fugiat recusandae error aperiam ratione. Assumenda at saepe eveniet!. 
   </i>
-  </header>
+</header>
+
+<div class="container bg-dark">
+  <br>
+  <h3 class="text-white-50">Miembros Fundadores</h3>
+  <br>
   
-<div class="jumbotron">
-    <br>
-    <h3 class="text-white-50">Miembros Fundadores</h3>
-    <br>
-    <div class="card-deck" *ngFor='let item of equipo'>
-      <div class="card">
-        <img src="{{item.foto}}" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">{{item.nombre}}</h5>
-          <h6 class="text-dark">{{item.especialidad}}</h6>
-          <p class="text-dark">{{item.descripcion}}</p>
-        </div>
+  <div class="card-deck">
+    <div class="card" *ngFor='let item of equipo'>
+      <img src="{{item.foto}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{item.nombre}}</h5>
+        <p class="card-text">{{item.especialidad}}</p>
+        <p class="card-text"><small class="text-muted">{{item.descripcion}}</small></p>
       </div>
-    </div>  
+    </div>
+  </div>
+  
+  <br>  
+  
 </div>
 
-  
-  <div class="jumbotron" id="jumbo">
-  <div class="container text-light">
-      <br>
-      <div class="container">
-        <div class="row p-4">
-          <div class="text-justify">
-            <h3 class="mb-5 ml-1">Servicios</h3>
-            <hr>
-            <h4>Altas</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non blanditiis aperiam saepe voluptates exercitationem, eaque dolorem quibusdam ipsum accusamus obcaecati eligendi quisquam dolores at quaerat neque aliquam maiores nulla modi!</p>
-            <h4>Bajas</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in possimus pariatur laudantium expedita soluta quas velit id atque! Fugiat optio non eum, possimus officiis minima? Incidunt ullam iure saepe.</p>
-            <h4>Modificaciones</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, possimus provident dolor blanditiis cumque alias ad debitis aut facilis nam modi earum deleniti ut sint iusto enim laudantium delectus...</p>
-            <h4>Seguro, Intuitivo, Moderno</h4>
-          </div>
-        </div>
-        <div class="row">
-          <div class="text-center mb-5">
-              <img id="imagen" src="../../assets/Sin título.jpg">
-          </div>
-        </div>
-      </div>      
+<div class="jumbotron">
+  <div class="text-justify text-light">
+    <h3 class="mb-5 ml-1">Servicios</h3>
+    <h4>Altas</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non blanditiis aperiam saepe voluptates exercitationem, eaque dolorem quibusdam ipsum accusamus obcaecati eligendi quisquam dolores at quaerat neque aliquam maiores nulla modi!</p>
+    <h4>Bajas</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in possimus pariatur laudantium expedita soluta quas velit id atque! Fugiat optio non eum, possimus officiis minima? Incidunt ullam iure saepe.</p>
+    <h4>Modificaciones</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium, possimus provident dolor blanditiis cumque alias ad debitis aut facilis nam modi earum deleniti ut sint iusto enim laudantium delectus...</p>
+    <h4>Seguro, Intuitivo, Moderno</h4>
   </div>
-  </div>  
+  <img id="imagen" src="../../assets/Sin título.jpg">
+</div>
