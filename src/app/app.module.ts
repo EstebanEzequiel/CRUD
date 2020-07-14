@@ -30,6 +30,7 @@ import { ConozcaMasComponent } from './conozca-mas/conozca-mas.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     BrowserAnimationsModule,
     NgxPaginationModule,
+    MatSliderModule
   ],
   providers: [ ProductService ],
   bootstrap: [AppComponent]
