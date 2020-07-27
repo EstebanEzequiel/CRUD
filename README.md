@@ -1,1 +1,1 @@
-El proyecto es una Single Page Application en Angular, manipulando base de datos de Firebase.
+El proyecto es una single page application de Angular, añadiendo la plataforma como servicio Firebase, su database runtime y hosting para el despliegue de la app. Consiste en tasks de un CRUD
